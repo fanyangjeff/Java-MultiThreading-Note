@@ -8,13 +8,8 @@ public class Main {
 
 //        Thread daemonThread = new DaemonThread();
 
-        Thread addThread = new CounterThread();
+        new TaskProcesser();
 
-        addThread.start();
-
-        addThread.join();
-
-        System.out.println(Counter.counter);
     }
 }
 
